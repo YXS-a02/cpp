@@ -1,0 +1,967 @@
+2025/6/4 14:42:27: Creating log...
+
+编译项目变更...
+--------
+- 项目文件名: F:\YXS\cpp\cp\cp.dev
+- 编译器名: MinGW GCC 9.2.0 32-bit Debug
+
+生成 makefile...
+--------
+- 文件名: F:\YXS\cpp\cp\Makefile.win
+- 资源文件: F:\YXS\cpp\cp\cp_private.res
+
+正在处理makefile...
+--------
+- makefile处理器: C:\Program Files (x86)\Dev-Cpp\MinGW32\bin\mingw32-make.exe
+- 命令: mingw32-make.exe -f "F:\YXS\cpp\cp\Makefile.win" all
+
+windres.exe -i cp_private.rc --input-format=rc -o cp_private.res -O coff 
+g++.exe -D__DEBUG__ main.o cp_private.res -o "e/cp.exe" -L"C:/Program Files (x86)/Dev-Cpp/MinGW32/lib" -L"C:/Program Files (x86)/Dev-Cpp/MinGW32/mingw32/lib" -g3 -static
+
+编译结果...
+--------
+- 错误: 0
+- 警告: 0
+- 输出文件名: F:\YXS\cpp\cp\e\cp.exe
+- 输出大小: 2.24928188323975 MiB
+- 编译时间: 11.78s
+
+2025/6/4 14:45:00: Appending to log...
+
+编译单个文件...
+--------
+- 文件名: F:\YXS\cpp\cp\main.cpp
+- 编译器名: MinGW GCC 9.2.0 32-bit Debug
+
+处理 C++ 源文件...
+--------
+- C++ 编译器: C:\Program Files (x86)\Dev-Cpp\MinGW32\bin\g++.exe
+- 命令: g++.exe -x c++ - -fsyntax-only -Wall -Wextra -g3 -finput-charset=gbk -fexec-charset=gbk -I"c:\program files (x86)\dev-cpp\mingw32\lib\gcc\mingw32\9.2.0\include\c++" -I"c:\program files (x86)\dev-cpp\mingw32\lib\gcc\mingw32\9.2.0\include\c++\mingw32" -I"c:\program files (x86)\dev-cpp\mingw32\lib\gcc\mingw32\9.2.0\include\c++\backward" -I"c:\program files (x86)\dev-cpp\mingw32\lib\gcc\mingw32\9.2.0\include" -I"c:\program files (x86)\dev-cpp\mingw32\include" -I"c:\program files (x86)\dev-cpp\mingw32\lib\gcc\mingw32\9.2.0\include-fixed" 
+
+编译结果...
+--------
+- 错误: 0
+- 警告: 0
+- 编译时间: 1.69s
+
+2025/6/4 14:47:01: Appending to log...
+
+编译单个文件...
+--------
+- 文件名: F:\YXS\cpp\cp\main.cpp
+- 编译器名: MinGW GCC 9.2.0 32-bit Debug
+
+处理 C++ 源文件...
+--------
+- C++ 编译器: C:\Program Files (x86)\Dev-Cpp\MinGW32\bin\g++.exe
+- 命令: g++.exe -x c++ - -fsyntax-only -Wall -Wextra -g3 -finput-charset=gbk -fexec-charset=gbk -I"c:\program files (x86)\dev-cpp\mingw32\lib\gcc\mingw32\9.2.0\include\c++" -I"c:\program files (x86)\dev-cpp\mingw32\lib\gcc\mingw32\9.2.0\include\c++\mingw32" -I"c:\program files (x86)\dev-cpp\mingw32\lib\gcc\mingw32\9.2.0\include\c++\backward" -I"c:\program files (x86)\dev-cpp\mingw32\lib\gcc\mingw32\9.2.0\include" -I"c:\program files (x86)\dev-cpp\mingw32\include" -I"c:\program files (x86)\dev-cpp\mingw32\lib\gcc\mingw32\9.2.0\include-fixed" 
+<stdin>:9:20: warning: character constant too long for its type
+<stdin>: In function 'int main(int, char**)':
+<stdin>:9:20: error: ISO C++ forbids comparison between pointer and integer [-fpermissive]
+
+编译结果...
+--------
+- 错误: 1
+- 警告: 1
+- 编译时间: 0.42s
+
+2025/6/4 14:47:11: Appending to log...
+
+重新生成整个项目...
+--------
+- 项目文件名: F:\YXS\cpp\cp\cp.dev
+- 编译器名: MinGW GCC 9.2.0 32-bit Debug
+
+生成 makefile...
+--------
+- 文件名: F:\YXS\cpp\cp\Makefile.win
+- 资源文件: F:\YXS\cpp\cp\cp_private.res
+
+正在处理makefile...
+--------
+- makefile处理器: C:\Program Files (x86)\Dev-Cpp\MinGW32\bin\mingw32-make.exe
+- 命令: mingw32-make.exe -f "F:\YXS\cpp\cp\Makefile.win" clean all
+
+del /q /f main.o cp_private.res e/cp.exe
+无效开关 - "cp.exe"。
+F:\YXS\cpp\cp\Makefile.win:24: recipe for target 'clean' failed
+mingw32-make.exe: *** [clean] Error 1
+
+编译结果...
+--------
+- 错误: 0
+- 警告: 0
+- 输出文件名: F:\YXS\cpp\cp\e\cp.exe
+- 输出大小: 2.24928188323975 MiB
+- 编译时间: 2.52s
+
+2025/6/4 14:47:18: Appending to log...
+
+编译项目变更...
+--------
+- 项目文件名: F:\YXS\cpp\cp\cp.dev
+- 编译器名: MinGW GCC 9.2.0 32-bit Debug
+
+生成 makefile...
+--------
+- 文件名: F:\YXS\cpp\cp\Makefile.win
+- 资源文件: F:\YXS\cpp\cp\cp_private.res
+
+正在处理makefile...
+--------
+- makefile处理器: C:\Program Files (x86)\Dev-Cpp\MinGW32\bin\mingw32-make.exe
+- 命令: mingw32-make.exe -f "F:\YXS\cpp\cp\Makefile.win" all
+
+g++.exe -D__DEBUG__ -c main.cpp -o main.o -I"c:/program files (x86)/dev-cpp/mingw32/lib/gcc/mingw32/9.2.0/include/c++" -I"c:/program files (x86)/dev-cpp/mingw32/lib/gcc/mingw32/9.2.0/include/c++/mingw32" -I"c:/program files (x86)/dev-cpp/mingw32/lib/gcc/mingw32/9.2.0/include/c++/backward" -I"c:/program files (x86)/dev-cpp/mingw32/lib/gcc/mingw32/9.2.0/include" -I"c:/program files (x86)/dev-cpp/mingw32/include" -I"c:/program files (x86)/dev-cpp/mingw32/lib/gcc/mingw32/9.2.0/include-fixed" -Wall -Wextra -g3 
+main.cpp:9:20: warning: character constant too long for its type
+    9 |      if(argv[i] == 'about'){
+      |                    ^~~~~~~
+main.cpp: In function 'int main(int, char**)':
+main.cpp:9:20: error: ISO C++ forbids comparison between pointer and integer [-fpermissive]
+F:\YXS\cpp\cp\Makefile.win:30: recipe for target 'main.o' failed
+mingw32-make.exe: *** [main.o] Error 1
+
+编译结果...
+--------
+- 错误: 1
+- 警告: 1
+- 输出文件名: F:\YXS\cpp\cp\e\cp.exe
+- 输出大小: 2.24928188323975 MiB
+- 编译时间: 0.53s
+
+2025/6/4 14:50:33: Appending to log...
+
+编译单个文件...
+--------
+- 文件名: F:\YXS\cpp\cp\main.cpp
+- 编译器名: MinGW GCC 9.2.0 32-bit Debug
+
+处理 C++ 源文件...
+--------
+- C++ 编译器: C:\Program Files (x86)\Dev-Cpp\MinGW32\bin\g++.exe
+- 命令: g++.exe -x c++ - -fsyntax-only -Wall -Wextra -g3 -finput-charset=gbk -fexec-charset=gbk -I"c:\program files (x86)\dev-cpp\mingw32\lib\gcc\mingw32\9.2.0\include\c++" -I"c:\program files (x86)\dev-cpp\mingw32\lib\gcc\mingw32\9.2.0\include\c++\mingw32" -I"c:\program files (x86)\dev-cpp\mingw32\lib\gcc\mingw32\9.2.0\include\c++\backward" -I"c:\program files (x86)\dev-cpp\mingw32\lib\gcc\mingw32\9.2.0\include" -I"c:\program files (x86)\dev-cpp\mingw32\include" -I"c:\program files (x86)\dev-cpp\mingw32\lib\gcc\mingw32\9.2.0\include-fixed" 
+
+编译结果...
+--------
+- 错误: 0
+- 警告: 0
+- 编译时间: 0.48s
+
+2025/6/4 14:50:49: Appending to log...
+
+编译单个文件...
+--------
+- 文件名: F:\YXS\cpp\cp\main.cpp
+- 编译器名: MinGW GCC 9.2.0 32-bit Debug
+
+处理 C++ 源文件...
+--------
+- C++ 编译器: C:\Program Files (x86)\Dev-Cpp\MinGW32\bin\g++.exe
+- 命令: g++.exe -x c++ - -fsyntax-only -Wall -Wextra -g3 -finput-charset=gbk -fexec-charset=gbk -I"c:\program files (x86)\dev-cpp\mingw32\lib\gcc\mingw32\9.2.0\include\c++" -I"c:\program files (x86)\dev-cpp\mingw32\lib\gcc\mingw32\9.2.0\include\c++\mingw32" -I"c:\program files (x86)\dev-cpp\mingw32\lib\gcc\mingw32\9.2.0\include\c++\backward" -I"c:\program files (x86)\dev-cpp\mingw32\lib\gcc\mingw32\9.2.0\include" -I"c:\program files (x86)\dev-cpp\mingw32\include" -I"c:\program files (x86)\dev-cpp\mingw32\lib\gcc\mingw32\9.2.0\include-fixed" 
+
+编译结果...
+--------
+- 错误: 0
+- 警告: 0
+- 编译时间: 0.44s
+
+2025/6/4 14:51:49: Appending to log...
+
+编译项目变更...
+--------
+- 项目文件名: F:\YXS\cpp\cp\cp.dev
+- 编译器名: MinGW GCC 9.2.0 32-bit Debug
+
+生成 makefile...
+--------
+- 文件名: F:\YXS\cpp\cp\Makefile.win
+- 资源文件: F:\YXS\cpp\cp\cp_private.res
+
+正在处理makefile...
+--------
+- makefile处理器: C:\Program Files (x86)\Dev-Cpp\MinGW32\bin\mingw32-make.exe
+- 命令: mingw32-make.exe -f "F:\YXS\cpp\cp\Makefile.win" all
+
+g++.exe -D__DEBUG__ -c main.cpp -o main.o -I"c:/program files (x86)/dev-cpp/mingw32/lib/gcc/mingw32/9.2.0/include/c++" -I"c:/program files (x86)/dev-cpp/mingw32/lib/gcc/mingw32/9.2.0/include/c++/mingw32" -I"c:/program files (x86)/dev-cpp/mingw32/lib/gcc/mingw32/9.2.0/include/c++/backward" -I"c:/program files (x86)/dev-cpp/mingw32/lib/gcc/mingw32/9.2.0/include" -I"c:/program files (x86)/dev-cpp/mingw32/include" -I"c:/program files (x86)/dev-cpp/mingw32/lib/gcc/mingw32/9.2.0/include-fixed" -Wall -Wextra -g3 
+windres.exe -i cp_private.rc --input-format=rc -o cp_private.res -O coff 
+g++.exe -D__DEBUG__ main.o cp_private.res -o "e/cp.exe" -L"C:/Program Files (x86)/Dev-Cpp/MinGW32/lib" -L"C:/Program Files (x86)/Dev-Cpp/MinGW32/mingw32/lib" -g3 -static
+
+编译结果...
+--------
+- 错误: 0
+- 警告: 0
+- 输出文件名: F:\YXS\cpp\cp\e\cp.exe
+- 输出大小: 2.25017642974854 MiB
+- 编译时间: 54.77s
+
+2025/6/4 14:52:45: Appending to log...
+
+编译单个文件...
+--------
+- 文件名: F:\YXS\cpp\cp\main.cpp
+- 编译器名: MinGW GCC 9.2.0 32-bit Debug
+
+处理 C++ 源文件...
+--------
+- C++ 编译器: C:\Program Files (x86)\Dev-Cpp\MinGW32\bin\g++.exe
+- 命令: g++.exe -x c++ - -fsyntax-only -Wall -Wextra -g3 -finput-charset=gbk -fexec-charset=gbk -I"c:\program files (x86)\dev-cpp\mingw32\lib\gcc\mingw32\9.2.0\include\c++" -I"c:\program files (x86)\dev-cpp\mingw32\lib\gcc\mingw32\9.2.0\include\c++\mingw32" -I"c:\program files (x86)\dev-cpp\mingw32\lib\gcc\mingw32\9.2.0\include\c++\backward" -I"c:\program files (x86)\dev-cpp\mingw32\lib\gcc\mingw32\9.2.0\include" -I"c:\program files (x86)\dev-cpp\mingw32\include" -I"c:\program files (x86)\dev-cpp\mingw32\lib\gcc\mingw32\9.2.0\include-fixed" 
+
+编译结果...
+--------
+- 错误: 0
+- 警告: 0
+- 编译时间: 0.44s
+
+2025/6/4 14:53:21: Appending to log...
+
+编译单个文件...
+--------
+- 文件名: F:\YXS\cpp\cp\main.cpp
+- 编译器名: MinGW GCC 9.2.0 32-bit Debug
+
+处理 C++ 源文件...
+--------
+- C++ 编译器: C:\Program Files (x86)\Dev-Cpp\MinGW32\bin\g++.exe
+- 命令: g++.exe -x c++ - -fsyntax-only -Wall -Wextra -g3 -finput-charset=gbk -fexec-charset=gbk -I"c:\program files (x86)\dev-cpp\mingw32\lib\gcc\mingw32\9.2.0\include\c++" -I"c:\program files (x86)\dev-cpp\mingw32\lib\gcc\mingw32\9.2.0\include\c++\mingw32" -I"c:\program files (x86)\dev-cpp\mingw32\lib\gcc\mingw32\9.2.0\include\c++\backward" -I"c:\program files (x86)\dev-cpp\mingw32\lib\gcc\mingw32\9.2.0\include" -I"c:\program files (x86)\dev-cpp\mingw32\include" -I"c:\program files (x86)\dev-cpp\mingw32\lib\gcc\mingw32\9.2.0\include-fixed" 
+
+编译结果...
+--------
+- 错误: 0
+- 警告: 0
+- 编译时间: 0.44s
+
+2025/6/4 14:53:22: Appending to log...
+
+编译单个文件...
+--------
+- 文件名: F:\YXS\cpp\cp\main.cpp
+- 编译器名: MinGW GCC 9.2.0 32-bit Debug
+
+处理 C++ 源文件...
+--------
+- C++ 编译器: C:\Program Files (x86)\Dev-Cpp\MinGW32\bin\g++.exe
+- 命令: g++.exe -x c++ - -fsyntax-only -Wall -Wextra -g3 -finput-charset=gbk -fexec-charset=gbk -I"c:\program files (x86)\dev-cpp\mingw32\lib\gcc\mingw32\9.2.0\include\c++" -I"c:\program files (x86)\dev-cpp\mingw32\lib\gcc\mingw32\9.2.0\include\c++\mingw32" -I"c:\program files (x86)\dev-cpp\mingw32\lib\gcc\mingw32\9.2.0\include\c++\backward" -I"c:\program files (x86)\dev-cpp\mingw32\lib\gcc\mingw32\9.2.0\include" -I"c:\program files (x86)\dev-cpp\mingw32\include" -I"c:\program files (x86)\dev-cpp\mingw32\lib\gcc\mingw32\9.2.0\include-fixed" 
+
+编译结果...
+--------
+- 错误: 0
+- 警告: 0
+- 编译时间: 0.42s
+
+2025/6/4 14:53:24: Appending to log...
+
+编译单个文件...
+--------
+- 文件名: F:\YXS\cpp\cp\main.cpp
+- 编译器名: MinGW GCC 9.2.0 32-bit Debug
+
+处理 C++ 源文件...
+--------
+- C++ 编译器: C:\Program Files (x86)\Dev-Cpp\MinGW32\bin\g++.exe
+- 命令: g++.exe -x c++ - -fsyntax-only -Wall -Wextra -g3 -finput-charset=gbk -fexec-charset=gbk -I"c:\program files (x86)\dev-cpp\mingw32\lib\gcc\mingw32\9.2.0\include\c++" -I"c:\program files (x86)\dev-cpp\mingw32\lib\gcc\mingw32\9.2.0\include\c++\mingw32" -I"c:\program files (x86)\dev-cpp\mingw32\lib\gcc\mingw32\9.2.0\include\c++\backward" -I"c:\program files (x86)\dev-cpp\mingw32\lib\gcc\mingw32\9.2.0\include" -I"c:\program files (x86)\dev-cpp\mingw32\include" -I"c:\program files (x86)\dev-cpp\mingw32\lib\gcc\mingw32\9.2.0\include-fixed" 
+
+编译结果...
+--------
+- 错误: 0
+- 警告: 0
+- 编译时间: 0.42s
+
+2025/6/4 14:54:01: Appending to log...
+
+编译单个文件...
+--------
+- 文件名: F:\YXS\cpp\cp\main.cpp
+- 编译器名: MinGW GCC 9.2.0 32-bit Debug
+
+处理 C++ 源文件...
+--------
+- C++ 编译器: C:\Program Files (x86)\Dev-Cpp\MinGW32\bin\g++.exe
+- 命令: g++.exe -x c++ - -fsyntax-only -Wall -Wextra -g3 -finput-charset=gbk -fexec-charset=gbk -I"c:\program files (x86)\dev-cpp\mingw32\lib\gcc\mingw32\9.2.0\include\c++" -I"c:\program files (x86)\dev-cpp\mingw32\lib\gcc\mingw32\9.2.0\include\c++\mingw32" -I"c:\program files (x86)\dev-cpp\mingw32\lib\gcc\mingw32\9.2.0\include\c++\backward" -I"c:\program files (x86)\dev-cpp\mingw32\lib\gcc\mingw32\9.2.0\include" -I"c:\program files (x86)\dev-cpp\mingw32\include" -I"c:\program files (x86)\dev-cpp\mingw32\lib\gcc\mingw32\9.2.0\include-fixed" 
+
+编译结果...
+--------
+- 错误: 0
+- 警告: 0
+- 编译时间: 0.44s
+
+2025/6/4 14:54:22: Appending to log...
+
+编译单个文件...
+--------
+- 文件名: F:\YXS\cpp\cp\main.cpp
+- 编译器名: MinGW GCC 9.2.0 32-bit Debug
+
+处理 C++ 源文件...
+--------
+- C++ 编译器: C:\Program Files (x86)\Dev-Cpp\MinGW32\bin\g++.exe
+- 命令: g++.exe -x c++ - -fsyntax-only -Wall -Wextra -g3 -finput-charset=gbk -fexec-charset=gbk -I"c:\program files (x86)\dev-cpp\mingw32\lib\gcc\mingw32\9.2.0\include\c++" -I"c:\program files (x86)\dev-cpp\mingw32\lib\gcc\mingw32\9.2.0\include\c++\mingw32" -I"c:\program files (x86)\dev-cpp\mingw32\lib\gcc\mingw32\9.2.0\include\c++\backward" -I"c:\program files (x86)\dev-cpp\mingw32\lib\gcc\mingw32\9.2.0\include" -I"c:\program files (x86)\dev-cpp\mingw32\include" -I"c:\program files (x86)\dev-cpp\mingw32\lib\gcc\mingw32\9.2.0\include-fixed" 
+<stdin>: In function 'int helppage()':
+<stdin>:22:1: warning: no return statement in function returning non-void [-Wreturn-type]
+
+编译结果...
+--------
+- 错误: 0
+- 警告: 1
+- 编译时间: 0.44s
+
+2025/6/4 14:56:21: Appending to log...
+
+编译单个文件...
+--------
+- 文件名: F:\YXS\cpp\cp\main.cpp
+- 编译器名: MinGW GCC 9.2.0 32-bit Debug
+
+处理 C++ 源文件...
+--------
+- C++ 编译器: C:\Program Files (x86)\Dev-Cpp\MinGW32\bin\g++.exe
+- 命令: g++.exe -x c++ - -fsyntax-only -Wall -Wextra -g3 -finput-charset=gbk -fexec-charset=gbk -I"c:\program files (x86)\dev-cpp\mingw32\lib\gcc\mingw32\9.2.0\include\c++" -I"c:\program files (x86)\dev-cpp\mingw32\lib\gcc\mingw32\9.2.0\include\c++\mingw32" -I"c:\program files (x86)\dev-cpp\mingw32\lib\gcc\mingw32\9.2.0\include\c++\backward" -I"c:\program files (x86)\dev-cpp\mingw32\lib\gcc\mingw32\9.2.0\include" -I"c:\program files (x86)\dev-cpp\mingw32\include" -I"c:\program files (x86)\dev-cpp\mingw32\lib\gcc\mingw32\9.2.0\include-fixed" 
+<stdin>: In function 'int helppage()':
+<stdin>:21:52: error: 'argv' was not declared in this scope; did you mean '_argv'?
+<stdin>:21:57: error: 'i' was not declared in this scope
+<stdin>:24:1: warning: no return statement in function returning non-void [-Wreturn-type]
+
+编译结果...
+--------
+- 错误: 2
+- 警告: 1
+- 编译时间: 0.42s
+
+2025/6/4 14:56:25: Appending to log...
+
+编译单个文件...
+--------
+- 文件名: F:\YXS\cpp\cp\main.cpp
+- 编译器名: MinGW GCC 9.2.0 32-bit Debug
+
+处理 C++ 源文件...
+--------
+- C++ 编译器: C:\Program Files (x86)\Dev-Cpp\MinGW32\bin\g++.exe
+- 命令: g++.exe -x c++ - -fsyntax-only -Wall -Wextra -g3 -finput-charset=gbk -fexec-charset=gbk -I"c:\program files (x86)\dev-cpp\mingw32\lib\gcc\mingw32\9.2.0\include\c++" -I"c:\program files (x86)\dev-cpp\mingw32\lib\gcc\mingw32\9.2.0\include\c++\mingw32" -I"c:\program files (x86)\dev-cpp\mingw32\lib\gcc\mingw32\9.2.0\include\c++\backward" -I"c:\program files (x86)\dev-cpp\mingw32\lib\gcc\mingw32\9.2.0\include" -I"c:\program files (x86)\dev-cpp\mingw32\include" -I"c:\program files (x86)\dev-cpp\mingw32\lib\gcc\mingw32\9.2.0\include-fixed" 
+<stdin>: In function 'int helppage()':
+<stdin>:22:1: warning: no return statement in function returning non-void [-Wreturn-type]
+
+编译结果...
+--------
+- 错误: 0
+- 警告: 1
+- 编译时间: 0.42s
+
+2025/6/4 14:56:34: Appending to log...
+
+编译单个文件...
+--------
+- 文件名: F:\YXS\cpp\cp\main.cpp
+- 编译器名: MinGW GCC 9.2.0 32-bit Debug
+
+处理 C++ 源文件...
+--------
+- C++ 编译器: C:\Program Files (x86)\Dev-Cpp\MinGW32\bin\g++.exe
+- 命令: g++.exe -x c++ - -fsyntax-only -Wall -Wextra -g3 -finput-charset=gbk -fexec-charset=gbk -I"c:\program files (x86)\dev-cpp\mingw32\lib\gcc\mingw32\9.2.0\include\c++" -I"c:\program files (x86)\dev-cpp\mingw32\lib\gcc\mingw32\9.2.0\include\c++\mingw32" -I"c:\program files (x86)\dev-cpp\mingw32\lib\gcc\mingw32\9.2.0\include\c++\backward" -I"c:\program files (x86)\dev-cpp\mingw32\lib\gcc\mingw32\9.2.0\include" -I"c:\program files (x86)\dev-cpp\mingw32\include" -I"c:\program files (x86)\dev-cpp\mingw32\lib\gcc\mingw32\9.2.0\include-fixed" 
+<stdin>: In function 'int helppage()':
+<stdin>:23:1: warning: no return statement in function returning non-void [-Wreturn-type]
+
+编译结果...
+--------
+- 错误: 0
+- 警告: 1
+- 编译时间: 0.42s
+
+2025/6/4 14:56:52: Appending to log...
+
+编译单个文件...
+--------
+- 文件名: F:\YXS\cpp\cp\main.cpp
+- 编译器名: MinGW GCC 9.2.0 32-bit Debug
+
+处理 C++ 源文件...
+--------
+- C++ 编译器: C:\Program Files (x86)\Dev-Cpp\MinGW32\bin\g++.exe
+- 命令: g++.exe -x c++ - -fsyntax-only -Wall -Wextra -g3 -finput-charset=gbk -fexec-charset=gbk -I"c:\program files (x86)\dev-cpp\mingw32\lib\gcc\mingw32\9.2.0\include\c++" -I"c:\program files (x86)\dev-cpp\mingw32\lib\gcc\mingw32\9.2.0\include\c++\mingw32" -I"c:\program files (x86)\dev-cpp\mingw32\lib\gcc\mingw32\9.2.0\include\c++\backward" -I"c:\program files (x86)\dev-cpp\mingw32\lib\gcc\mingw32\9.2.0\include" -I"c:\program files (x86)\dev-cpp\mingw32\include" -I"c:\program files (x86)\dev-cpp\mingw32\lib\gcc\mingw32\9.2.0\include-fixed" 
+<stdin>: In function 'int helppage()':
+<stdin>:24:1: warning: no return statement in function returning non-void [-Wreturn-type]
+
+编译结果...
+--------
+- 错误: 0
+- 警告: 1
+- 编译时间: 0.44s
+
+2025/6/4 14:56:54: Appending to log...
+
+编译单个文件...
+--------
+- 文件名: F:\YXS\cpp\cp\main.cpp
+- 编译器名: MinGW GCC 9.2.0 32-bit Debug
+
+处理 C++ 源文件...
+--------
+- C++ 编译器: C:\Program Files (x86)\Dev-Cpp\MinGW32\bin\g++.exe
+- 命令: g++.exe -x c++ - -fsyntax-only -Wall -Wextra -g3 -finput-charset=gbk -fexec-charset=gbk -I"c:\program files (x86)\dev-cpp\mingw32\lib\gcc\mingw32\9.2.0\include\c++" -I"c:\program files (x86)\dev-cpp\mingw32\lib\gcc\mingw32\9.2.0\include\c++\mingw32" -I"c:\program files (x86)\dev-cpp\mingw32\lib\gcc\mingw32\9.2.0\include\c++\backward" -I"c:\program files (x86)\dev-cpp\mingw32\lib\gcc\mingw32\9.2.0\include" -I"c:\program files (x86)\dev-cpp\mingw32\include" -I"c:\program files (x86)\dev-cpp\mingw32\lib\gcc\mingw32\9.2.0\include-fixed" 
+<stdin>: In function 'int helppage()':
+<stdin>:25:1: warning: no return statement in function returning non-void [-Wreturn-type]
+
+编译结果...
+--------
+- 错误: 0
+- 警告: 1
+- 编译时间: 0.42s
+
+2025/6/4 14:59:32: Appending to log...
+
+编译项目变更...
+--------
+- 项目文件名: F:\YXS\cpp\cp\cp.dev
+- 编译器名: MinGW GCC 9.2.0 32-bit Debug
+
+生成 makefile...
+--------
+- 文件名: F:\YXS\cpp\cp\Makefile.win
+- 资源文件: F:\YXS\cpp\cp\cp_private.res
+
+正在处理makefile...
+--------
+- makefile处理器: C:\Program Files (x86)\Dev-Cpp\MinGW32\bin\mingw32-make.exe
+- 命令: mingw32-make.exe -f "F:\YXS\cpp\cp\Makefile.win" all
+
+g++.exe -D__DEBUG__ -c main.cpp -o main.o -I"c:/program files (x86)/dev-cpp/mingw32/lib/gcc/mingw32/9.2.0/include/c++" -I"c:/program files (x86)/dev-cpp/mingw32/lib/gcc/mingw32/9.2.0/include/c++/mingw32" -I"c:/program files (x86)/dev-cpp/mingw32/lib/gcc/mingw32/9.2.0/include/c++/backward" -I"c:/program files (x86)/dev-cpp/mingw32/lib/gcc/mingw32/9.2.0/include" -I"c:/program files (x86)/dev-cpp/mingw32/include" -I"c:/program files (x86)/dev-cpp/mingw32/lib/gcc/mingw32/9.2.0/include-fixed" -Wall -Wextra -g3 
+main.cpp: In function 'int main(int, char**)':
+main.cpp:14:7: error: 'helppage' was not declared in this scope
+   14 |       helppage();
+      |       ^~~~~~~~
+main.cpp: In function 'int helppage()':
+main.cpp:25:1: warning: no return statement in function returning non-void [-Wreturn-type]
+   25 | }
+      | ^
+F:\YXS\cpp\cp\Makefile.win:30: recipe for target 'main.o' failed
+mingw32-make.exe: *** [main.o] Error 1
+
+编译结果...
+--------
+- 错误: 1
+- 警告: 1
+- 输出文件名: F:\YXS\cpp\cp\e\cp.exe
+- 输出大小: 2.25017642974854 MiB
+- 编译时间: 3.14s
+
+2025/6/4 14:59:54: Appending to log...
+
+编译单个文件...
+--------
+- 文件名: F:\YXS\cpp\cp\main.cpp
+- 编译器名: MinGW GCC 9.2.0 32-bit Debug
+
+处理 C++ 源文件...
+--------
+- C++ 编译器: C:\Program Files (x86)\Dev-Cpp\MinGW32\bin\g++.exe
+- 命令: g++.exe -x c++ - -fsyntax-only -Wall -Wextra -g3 -finput-charset=gbk -fexec-charset=gbk -I"c:\program files (x86)\dev-cpp\mingw32\lib\gcc\mingw32\9.2.0\include\c++" -I"c:\program files (x86)\dev-cpp\mingw32\lib\gcc\mingw32\9.2.0\include\c++\mingw32" -I"c:\program files (x86)\dev-cpp\mingw32\lib\gcc\mingw32\9.2.0\include\c++\backward" -I"c:\program files (x86)\dev-cpp\mingw32\lib\gcc\mingw32\9.2.0\include" -I"c:\program files (x86)\dev-cpp\mingw32\include" -I"c:\program files (x86)\dev-cpp\mingw32\lib\gcc\mingw32\9.2.0\include-fixed" 
+<stdin>: In function 'int main(int, char**)':
+<stdin>:14:7: error: 'helppage' was not declared in this scope
+
+编译结果...
+--------
+- 错误: 1
+- 警告: 0
+- 编译时间: 0.44s
+
+2025/6/4 14:59:57: Appending to log...
+
+编译单个文件...
+--------
+- 文件名: F:\YXS\cpp\cp\main.cpp
+- 编译器名: MinGW GCC 9.2.0 32-bit Debug
+
+处理 C++ 源文件...
+--------
+- C++ 编译器: C:\Program Files (x86)\Dev-Cpp\MinGW32\bin\g++.exe
+- 命令: g++.exe -x c++ - -fsyntax-only -Wall -Wextra -g3 -finput-charset=gbk -fexec-charset=gbk -I"c:\program files (x86)\dev-cpp\mingw32\lib\gcc\mingw32\9.2.0\include\c++" -I"c:\program files (x86)\dev-cpp\mingw32\lib\gcc\mingw32\9.2.0\include\c++\mingw32" -I"c:\program files (x86)\dev-cpp\mingw32\lib\gcc\mingw32\9.2.0\include\c++\backward" -I"c:\program files (x86)\dev-cpp\mingw32\lib\gcc\mingw32\9.2.0\include" -I"c:\program files (x86)\dev-cpp\mingw32\include" -I"c:\program files (x86)\dev-cpp\mingw32\lib\gcc\mingw32\9.2.0\include-fixed" 
+<stdin>: In function 'int main(int, char**)':
+<stdin>:15:7: error: 'helppage' was not declared in this scope
+
+编译结果...
+--------
+- 错误: 1
+- 警告: 0
+- 编译时间: 0.42s
+
+2025/6/4 14:59:58: Appending to log...
+
+编译单个文件...
+--------
+- 文件名: F:\YXS\cpp\cp\main.cpp
+- 编译器名: MinGW GCC 9.2.0 32-bit Debug
+
+处理 C++ 源文件...
+--------
+- C++ 编译器: C:\Program Files (x86)\Dev-Cpp\MinGW32\bin\g++.exe
+- 命令: g++.exe -x c++ - -fsyntax-only -Wall -Wextra -g3 -finput-charset=gbk -fexec-charset=gbk -I"c:\program files (x86)\dev-cpp\mingw32\lib\gcc\mingw32\9.2.0\include\c++" -I"c:\program files (x86)\dev-cpp\mingw32\lib\gcc\mingw32\9.2.0\include\c++\mingw32" -I"c:\program files (x86)\dev-cpp\mingw32\lib\gcc\mingw32\9.2.0\include\c++\backward" -I"c:\program files (x86)\dev-cpp\mingw32\lib\gcc\mingw32\9.2.0\include" -I"c:\program files (x86)\dev-cpp\mingw32\include" -I"c:\program files (x86)\dev-cpp\mingw32\lib\gcc\mingw32\9.2.0\include-fixed" 
+<stdin>: In function 'int main(int, char**)':
+<stdin>:16:7: error: 'helppage' was not declared in this scope
+
+编译结果...
+--------
+- 错误: 1
+- 警告: 0
+- 编译时间: 0.44s
+
+2025/6/4 15:00:01: Appending to log...
+
+编译单个文件...
+--------
+- 文件名: F:\YXS\cpp\cp\main.cpp
+- 编译器名: MinGW GCC 9.2.0 32-bit Debug
+
+处理 C++ 源文件...
+--------
+- C++ 编译器: C:\Program Files (x86)\Dev-Cpp\MinGW32\bin\g++.exe
+- 命令: g++.exe -x c++ - -fsyntax-only -Wall -Wextra -g3 -finput-charset=gbk -fexec-charset=gbk -I"c:\program files (x86)\dev-cpp\mingw32\lib\gcc\mingw32\9.2.0\include\c++" -I"c:\program files (x86)\dev-cpp\mingw32\lib\gcc\mingw32\9.2.0\include\c++\mingw32" -I"c:\program files (x86)\dev-cpp\mingw32\lib\gcc\mingw32\9.2.0\include\c++\backward" -I"c:\program files (x86)\dev-cpp\mingw32\lib\gcc\mingw32\9.2.0\include" -I"c:\program files (x86)\dev-cpp\mingw32\include" -I"c:\program files (x86)\dev-cpp\mingw32\lib\gcc\mingw32\9.2.0\include-fixed" 
+<stdin>: In function 'int helppage()':
+<stdin>:11:1: warning: no return statement in function returning non-void [-Wreturn-type]
+
+编译结果...
+--------
+- 错误: 0
+- 警告: 1
+- 编译时间: 0.45s
+
+2025/6/4 15:00:10: Appending to log...
+
+编译项目变更...
+--------
+- 项目文件名: F:\YXS\cpp\cp\cp.dev
+- 编译器名: MinGW GCC 9.2.0 32-bit Debug
+
+生成 makefile...
+--------
+- 文件名: F:\YXS\cpp\cp\Makefile.win
+- 资源文件: F:\YXS\cpp\cp\cp_private.res
+
+正在处理makefile...
+--------
+- makefile处理器: C:\Program Files (x86)\Dev-Cpp\MinGW32\bin\mingw32-make.exe
+- 命令: mingw32-make.exe -f "F:\YXS\cpp\cp\Makefile.win" all
+
+g++.exe -D__DEBUG__ -c main.cpp -o main.o -I"c:/program files (x86)/dev-cpp/mingw32/lib/gcc/mingw32/9.2.0/include/c++" -I"c:/program files (x86)/dev-cpp/mingw32/lib/gcc/mingw32/9.2.0/include/c++/mingw32" -I"c:/program files (x86)/dev-cpp/mingw32/lib/gcc/mingw32/9.2.0/include/c++/backward" -I"c:/program files (x86)/dev-cpp/mingw32/lib/gcc/mingw32/9.2.0/include" -I"c:/program files (x86)/dev-cpp/mingw32/include" -I"c:/program files (x86)/dev-cpp/mingw32/lib/gcc/mingw32/9.2.0/include-fixed" -Wall -Wextra -g3 
+main.cpp: In function 'int helppage()':
+main.cpp:11:1: warning: no return statement in function returning non-void [-Wreturn-type]
+   11 | }
+      | ^
+windres.exe -i cp_private.rc --input-format=rc -o cp_private.res -O coff 
+g++.exe -D__DEBUG__ main.o cp_private.res -o "e/cp.exe" -L"C:/Program Files (x86)/Dev-Cpp/MinGW32/lib" -L"C:/Program Files (x86)/Dev-Cpp/MinGW32/mingw32/lib" -g3 -static
+
+编译结果...
+--------
+- 错误: 0
+- 警告: 1
+- 输出文件名: F:\YXS\cpp\cp\e\cp.exe
+- 输出大小: 2.25021457672119 MiB
+- 编译时间: 6.72s
+
+2025/6/4 15:01:57: Appending to log...
+
+编译项目变更...
+--------
+- 项目文件名: F:\YXS\cpp\cp\cp.dev
+- 编译器名: MinGW GCC 9.2.0 32-bit Debug
+
+生成 makefile...
+--------
+- 文件名: F:\YXS\cpp\cp\Makefile.win
+- 资源文件: F:\YXS\cpp\cp\cp_private.res
+
+正在处理makefile...
+--------
+- makefile处理器: C:\Program Files (x86)\Dev-Cpp\MinGW32\bin\mingw32-make.exe
+- 命令: mingw32-make.exe -f "F:\YXS\cpp\cp\Makefile.win" all
+
+g++.exe -D__DEBUG__ -c main.cpp -o main.o -I"c:/program files (x86)/dev-cpp/mingw32/lib/gcc/mingw32/9.2.0/include/c++" -I"c:/program files (x86)/dev-cpp/mingw32/lib/gcc/mingw32/9.2.0/include/c++/mingw32" -I"c:/program files (x86)/dev-cpp/mingw32/lib/gcc/mingw32/9.2.0/include/c++/backward" -I"c:/program files (x86)/dev-cpp/mingw32/lib/gcc/mingw32/9.2.0/include" -I"c:/program files (x86)/dev-cpp/mingw32/include" -I"c:/program files (x86)/dev-cpp/mingw32/lib/gcc/mingw32/9.2.0/include-fixed" -Wall -Wextra -g3 
+main.cpp: In function 'int helppage()':
+main.cpp:11:1: warning: no return statement in function returning non-void [-Wreturn-type]
+   11 | }
+      | ^
+windres.exe -i cp_private.rc --input-format=rc -o cp_private.res -O coff 
+g++.exe -D__DEBUG__ main.o cp_private.res -o "e/cp.exe" -L"C:/Program Files (x86)/Dev-Cpp/MinGW32/lib" -L"C:/Program Files (x86)/Dev-Cpp/MinGW32/mingw32/lib" -g3 -static
+
+编译结果...
+--------
+- 错误: 0
+- 警告: 1
+- 输出文件名: F:\YXS\cpp\cp\e\cp.exe
+- 输出大小: 2.25021457672119 MiB
+- 编译时间: 17.89s
+
+2025/6/4 15:04:46: Appending to log...
+
+编译单个文件...
+--------
+- 文件名: F:\YXS\cpp\cp\main.cpp
+- 编译器名: MinGW GCC 9.2.0 32-bit Debug
+
+处理 C++ 源文件...
+--------
+- C++ 编译器: C:\Program Files (x86)\Dev-Cpp\MinGW32\bin\g++.exe
+- 命令: g++.exe -x c++ - -fsyntax-only -Wall -Wextra -g3 -finput-charset=gbk -fexec-charset=gbk -I"c:\program files (x86)\dev-cpp\mingw32\lib\gcc\mingw32\9.2.0\include\c++" -I"c:\program files (x86)\dev-cpp\mingw32\lib\gcc\mingw32\9.2.0\include\c++\mingw32" -I"c:\program files (x86)\dev-cpp\mingw32\lib\gcc\mingw32\9.2.0\include\c++\backward" -I"c:\program files (x86)\dev-cpp\mingw32\lib\gcc\mingw32\9.2.0\include" -I"c:\program files (x86)\dev-cpp\mingw32\include" -I"c:\program files (x86)\dev-cpp\mingw32\lib\gcc\mingw32\9.2.0\include-fixed" 
+<stdin>: In function 'int helppage()':
+<stdin>:12:1: warning: no return statement in function returning non-void [-Wreturn-type]
+
+编译结果...
+--------
+- 错误: 0
+- 警告: 1
+- 编译时间: 2.17s
+
+2025/6/4 15:04:48: Appending to log...
+
+编译单个文件...
+--------
+- 文件名: F:\YXS\cpp\cp\main.cpp
+- 编译器名: MinGW GCC 9.2.0 32-bit Debug
+
+处理 C++ 源文件...
+--------
+- C++ 编译器: C:\Program Files (x86)\Dev-Cpp\MinGW32\bin\g++.exe
+- 命令: g++.exe -x c++ - -fsyntax-only -Wall -Wextra -g3 -finput-charset=gbk -fexec-charset=gbk -I"c:\program files (x86)\dev-cpp\mingw32\lib\gcc\mingw32\9.2.0\include\c++" -I"c:\program files (x86)\dev-cpp\mingw32\lib\gcc\mingw32\9.2.0\include\c++\mingw32" -I"c:\program files (x86)\dev-cpp\mingw32\lib\gcc\mingw32\9.2.0\include\c++\backward" -I"c:\program files (x86)\dev-cpp\mingw32\lib\gcc\mingw32\9.2.0\include" -I"c:\program files (x86)\dev-cpp\mingw32\include" -I"c:\program files (x86)\dev-cpp\mingw32\lib\gcc\mingw32\9.2.0\include-fixed" 
+<stdin>:5: warning: ignoring #pragma comment  [-Wunknown-pragmas]
+<stdin>: In function 'int helppage()':
+<stdin>:14:1: warning: no return statement in function returning non-void [-Wreturn-type]
+
+编译结果...
+--------
+- 错误: 0
+- 警告: 2
+- 编译时间: 1.34s
+
+2025/6/4 15:06:25: Appending to log...
+
+编译单个文件...
+--------
+- 文件名: F:\YXS\cpp\cp\main.cpp
+- 编译器名: MinGW GCC 9.2.0 32-bit Debug
+
+处理 C++ 源文件...
+--------
+- C++ 编译器: C:\Program Files (x86)\Dev-Cpp\MinGW32\bin\g++.exe
+- 命令: g++.exe -x c++ - -fsyntax-only -Wall -Wextra -g3 -finput-charset=gbk -fexec-charset=gbk -I"c:\program files (x86)\dev-cpp\mingw32\lib\gcc\mingw32\9.2.0\include\c++" -I"c:\program files (x86)\dev-cpp\mingw32\lib\gcc\mingw32\9.2.0\include\c++\mingw32" -I"c:\program files (x86)\dev-cpp\mingw32\lib\gcc\mingw32\9.2.0\include\c++\backward" -I"c:\program files (x86)\dev-cpp\mingw32\lib\gcc\mingw32\9.2.0\include" -I"c:\program files (x86)\dev-cpp\mingw32\include" -I"c:\program files (x86)\dev-cpp\mingw32\lib\gcc\mingw32\9.2.0\include-fixed" 
+<stdin>: In function 'int helppage()':
+<stdin>:12:1: warning: no return statement in function returning non-void [-Wreturn-type]
+
+编译结果...
+--------
+- 错误: 0
+- 警告: 1
+- 编译时间: 0.44s
+
+2025/6/4 15:06:38: Appending to log...
+
+编译单个文件...
+--------
+- 文件名: F:\YXS\cpp\cp\main.cpp
+- 编译器名: MinGW GCC 9.2.0 32-bit Debug
+
+处理 C++ 源文件...
+--------
+- C++ 编译器: C:\Program Files (x86)\Dev-Cpp\MinGW32\bin\g++.exe
+- 命令: g++.exe -x c++ - -fsyntax-only -Wall -Wextra -g3 -finput-charset=gbk -fexec-charset=gbk -I"c:\program files (x86)\dev-cpp\mingw32\lib\gcc\mingw32\9.2.0\include\c++" -I"c:\program files (x86)\dev-cpp\mingw32\lib\gcc\mingw32\9.2.0\include\c++\mingw32" -I"c:\program files (x86)\dev-cpp\mingw32\lib\gcc\mingw32\9.2.0\include\c++\backward" -I"c:\program files (x86)\dev-cpp\mingw32\lib\gcc\mingw32\9.2.0\include" -I"c:\program files (x86)\dev-cpp\mingw32\include" -I"c:\program files (x86)\dev-cpp\mingw32\lib\gcc\mingw32\9.2.0\include-fixed" 
+<stdin>:5: warning: ignoring #pragma comment  [-Wunknown-pragmas]
+<stdin>: In function 'int helppage()':
+<stdin>:14:1: warning: no return statement in function returning non-void [-Wreturn-type]
+
+编译结果...
+--------
+- 错误: 0
+- 警告: 2
+- 编译时间: 0.55s
+
+2025/6/4 15:06:49: Appending to log...
+
+编译单个文件...
+--------
+- 文件名: F:\YXS\cpp\cp\main.cpp
+- 编译器名: MinGW GCC 9.2.0 32-bit Debug
+
+处理 C++ 源文件...
+--------
+- C++ 编译器: C:\Program Files (x86)\Dev-Cpp\MinGW32\bin\g++.exe
+- 命令: g++.exe -x c++ - -fsyntax-only -Wall -Wextra -g3 -finput-charset=gbk -fexec-charset=gbk -I"c:\program files (x86)\dev-cpp\mingw32\lib\gcc\mingw32\9.2.0\include\c++" -I"c:\program files (x86)\dev-cpp\mingw32\lib\gcc\mingw32\9.2.0\include\c++\mingw32" -I"c:\program files (x86)\dev-cpp\mingw32\lib\gcc\mingw32\9.2.0\include\c++\backward" -I"c:\program files (x86)\dev-cpp\mingw32\lib\gcc\mingw32\9.2.0\include" -I"c:\program files (x86)\dev-cpp\mingw32\include" -I"c:\program files (x86)\dev-cpp\mingw32\lib\gcc\mingw32\9.2.0\include-fixed" 
+<stdin>:5: warning: ignoring #pragma comment  [-Wunknown-pragmas]
+<stdin>: In function 'int helppage()':
+<stdin>:14:1: warning: no return statement in function returning non-void [-Wreturn-type]
+
+编译结果...
+--------
+- 错误: 0
+- 警告: 2
+- 编译时间: 0.55s
+
+2025/6/4 15:07:24: Appending to log...
+
+编译单个文件...
+--------
+- 文件名: F:\YXS\cpp\cp\main.cpp
+- 编译器名: MinGW GCC 9.2.0 32-bit Debug
+
+处理 C++ 源文件...
+--------
+- C++ 编译器: C:\Program Files (x86)\Dev-Cpp\MinGW32\bin\g++.exe
+- 命令: g++.exe -x c++ - -fsyntax-only -Wall -Wextra -g3 -finput-charset=gbk -fexec-charset=gbk -I"c:\program files (x86)\dev-cpp\mingw32\lib\gcc\mingw32\9.2.0\include\c++" -I"c:\program files (x86)\dev-cpp\mingw32\lib\gcc\mingw32\9.2.0\include\c++\mingw32" -I"c:\program files (x86)\dev-cpp\mingw32\lib\gcc\mingw32\9.2.0\include\c++\backward" -I"c:\program files (x86)\dev-cpp\mingw32\lib\gcc\mingw32\9.2.0\include" -I"c:\program files (x86)\dev-cpp\mingw32\include" -I"c:\program files (x86)\dev-cpp\mingw32\lib\gcc\mingw32\9.2.0\include-fixed" 
+<stdin>:5: warning: ignoring #pragma comment  [-Wunknown-pragmas]
+<stdin>: In function 'int helppage()':
+<stdin>:14:1: warning: no return statement in function returning non-void [-Wreturn-type]
+
+编译结果...
+--------
+- 错误: 0
+- 警告: 2
+- 编译时间: 0.56s
+
+2025/6/4 15:07:28: Appending to log...
+
+编译单个文件...
+--------
+- 文件名: F:\YXS\cpp\cp\main.cpp
+- 编译器名: MinGW GCC 9.2.0 32-bit Debug
+
+处理 C++ 源文件...
+--------
+- C++ 编译器: C:\Program Files (x86)\Dev-Cpp\MinGW32\bin\g++.exe
+- 命令: g++.exe -x c++ - -fsyntax-only -Wall -Wextra -g3 -finput-charset=gbk -fexec-charset=gbk -I"c:\program files (x86)\dev-cpp\mingw32\lib\gcc\mingw32\9.2.0\include\c++" -I"c:\program files (x86)\dev-cpp\mingw32\lib\gcc\mingw32\9.2.0\include\c++\mingw32" -I"c:\program files (x86)\dev-cpp\mingw32\lib\gcc\mingw32\9.2.0\include\c++\backward" -I"c:\program files (x86)\dev-cpp\mingw32\lib\gcc\mingw32\9.2.0\include" -I"c:\program files (x86)\dev-cpp\mingw32\include" -I"c:\program files (x86)\dev-cpp\mingw32\lib\gcc\mingw32\9.2.0\include-fixed" 
+<stdin>:5: warning: ignoring #pragma comment  [-Wunknown-pragmas]
+<stdin>: In function 'int helppage()':
+<stdin>:14:1: warning: no return statement in function returning non-void [-Wreturn-type]
+
+编译结果...
+--------
+- 错误: 0
+- 警告: 2
+- 编译时间: 0.56s
+
+2025/6/4 15:08:05: Appending to log...
+
+编译单个文件...
+--------
+- 文件名: F:\YXS\cpp\cp\main.cpp
+- 编译器名: MinGW GCC 9.2.0 32-bit Debug
+
+处理 C++ 源文件...
+--------
+- C++ 编译器: C:\Program Files (x86)\Dev-Cpp\MinGW32\bin\g++.exe
+- 命令: g++.exe -x c++ - -fsyntax-only -Wall -Wextra -g3 -finput-charset=gbk -fexec-charset=gbk -I"c:\program files (x86)\dev-cpp\mingw32\lib\gcc\mingw32\9.2.0\include\c++" -I"c:\program files (x86)\dev-cpp\mingw32\lib\gcc\mingw32\9.2.0\include\c++\mingw32" -I"c:\program files (x86)\dev-cpp\mingw32\lib\gcc\mingw32\9.2.0\include\c++\backward" -I"c:\program files (x86)\dev-cpp\mingw32\lib\gcc\mingw32\9.2.0\include" -I"c:\program files (x86)\dev-cpp\mingw32\include" -I"c:\program files (x86)\dev-cpp\mingw32\lib\gcc\mingw32\9.2.0\include-fixed" 
+<stdin>:5: warning: ignoring #pragma comment  [-Wunknown-pragmas]
+<stdin>: In function 'int helppage()':
+<stdin>:14:1: warning: no return statement in function returning non-void [-Wreturn-type]
+
+编译结果...
+--------
+- 错误: 0
+- 警告: 2
+- 编译时间: 0.56s
+
+2025/6/4 15:08:43: Appending to log...
+
+编译项目变更...
+--------
+- 项目文件名: F:\YXS\cpp\cp\cp.dev
+- 编译器名: MinGW GCC 9.2.0 32-bit Debug
+
+生成 makefile...
+--------
+- 文件名: F:\YXS\cpp\cp\Makefile.win
+- 资源文件: F:\YXS\cpp\cp\cp_private.res
+
+正在处理makefile...
+--------
+- makefile处理器: C:\Program Files (x86)\Dev-Cpp\MinGW32\bin\mingw32-make.exe
+- 命令: mingw32-make.exe -f "F:\YXS\cpp\cp\Makefile.win" all
+
+g++.exe -D__DEBUG__ -c main.cpp -o main.o -I"c:/program files (x86)/dev-cpp/mingw32/lib/gcc/mingw32/9.2.0/include/c++" -I"c:/program files (x86)/dev-cpp/mingw32/lib/gcc/mingw32/9.2.0/include/c++/mingw32" -I"c:/program files (x86)/dev-cpp/mingw32/lib/gcc/mingw32/9.2.0/include/c++/backward" -I"c:/program files (x86)/dev-cpp/mingw32/lib/gcc/mingw32/9.2.0/include" -I"c:/program files (x86)/dev-cpp/mingw32/include" -I"c:/program files (x86)/dev-cpp/mingw32/lib/gcc/mingw32/9.2.0/include-fixed" -Wall -Wextra -g3 
+main.cpp:5: warning: ignoring #pragma comment  [-Wunknown-pragmas]
+    5 | #pragma comment(lib, "winmm.lib")
+      | 
+main.cpp: In function 'int helppage()':
+main.cpp:14:1: warning: no return statement in function returning non-void [-Wreturn-type]
+   14 | }
+      | ^
+windres.exe -i cp_private.rc --input-format=rc -o cp_private.res -O coff 
+g++.exe -D__DEBUG__ main.o cp_private.res -o "e/cp.exe" -L"C:/Program Files (x86)/Dev-Cpp/MinGW32/lib" -L"C:/Program Files (x86)/Dev-Cpp/MinGW32/mingw32/lib" -g3 -static
+c:/program files (x86)/dev-cpp/mingw32/bin/../lib/gcc/mingw32/9.2.0/../../../../mingw32/bin/ld.exe: main.o: in function `main':
+F:\YXS\cpp\cp/main.cpp:28: undefined reference to `PlaySoundA@12'
+collect2.exe: error: ld returned 1 exit status
+F:\YXS\cpp\cp\Makefile.win:27: recipe for target 'e/cp.exe' failed
+mingw32-make.exe: *** [e/cp.exe] Error 1
+
+编译结果...
+--------
+- 错误: 1
+- 警告: 2
+- 编译时间: 34.00s
+
+2025/6/4 15:10:05: Appending to log...
+
+编译单个文件...
+--------
+- 文件名: F:\YXS\cpp\cp\main.cpp
+- 编译器名: MinGW GCC 9.2.0 32-bit Debug
+
+处理 C++ 源文件...
+--------
+- C++ 编译器: C:\Program Files (x86)\Dev-Cpp\MinGW32\bin\g++.exe
+- 命令: g++.exe -x c++ - -fsyntax-only -Wall -Wextra -g3 -finput-charset=gbk -fexec-charset=gbk -I"c:\program files (x86)\dev-cpp\mingw32\lib\gcc\mingw32\9.2.0\include\c++" -I"c:\program files (x86)\dev-cpp\mingw32\lib\gcc\mingw32\9.2.0\include\c++\mingw32" -I"c:\program files (x86)\dev-cpp\mingw32\lib\gcc\mingw32\9.2.0\include\c++\backward" -I"c:\program files (x86)\dev-cpp\mingw32\lib\gcc\mingw32\9.2.0\include" -I"c:\program files (x86)\dev-cpp\mingw32\include" -I"c:\program files (x86)\dev-cpp\mingw32\lib\gcc\mingw32\9.2.0\include-fixed" 
+<stdin>:5: warning: ignoring #pragma comment  [-Wunknown-pragmas]
+<stdin>: In function 'int helppage()':
+<stdin>:15:1: warning: no return statement in function returning non-void [-Wreturn-type]
+
+编译结果...
+--------
+- 错误: 0
+- 警告: 2
+- 编译时间: 2.63s
+
+2025/6/4 15:10:42: Appending to log...
+
+编译项目变更...
+--------
+- 项目文件名: F:\YXS\cpp\cp\cp.dev
+- 编译器名: MinGW GCC 9.2.0 32-bit Debug
+
+生成 makefile...
+--------
+- 文件名: F:\YXS\cpp\cp\Makefile.win
+- 资源文件: F:\YXS\cpp\cp\cp_private.res
+
+正在处理makefile...
+--------
+- makefile处理器: C:\Program Files (x86)\Dev-Cpp\MinGW32\bin\mingw32-make.exe
+- 命令: mingw32-make.exe -f "F:\YXS\cpp\cp\Makefile.win" all
+
+g++.exe -D__DEBUG__ -c main.cpp -o main.o -I"c:/program files (x86)/dev-cpp/mingw32/lib/gcc/mingw32/9.2.0/include/c++" -I"c:/program files (x86)/dev-cpp/mingw32/lib/gcc/mingw32/9.2.0/include/c++/mingw32" -I"c:/program files (x86)/dev-cpp/mingw32/lib/gcc/mingw32/9.2.0/include/c++/backward" -I"c:/program files (x86)/dev-cpp/mingw32/lib/gcc/mingw32/9.2.0/include" -I"c:/program files (x86)/dev-cpp/mingw32/include" -I"c:/program files (x86)/dev-cpp/mingw32/lib/gcc/mingw32/9.2.0/include-fixed" -Wall -Wextra -g3 
+main.cpp:5: warning: ignoring #pragma comment  [-Wunknown-pragmas]
+    5 | #pragma comment(lib, "winmm.lib")
+      | 
+windres.exe -i cp_private.rc --input-format=rc -o cp_private.res -O coff 
+g++.exe -D__DEBUG__ main.o cp_private.res -o "e/cp.exe" -L"C:/Program Files (x86)/Dev-Cpp/MinGW32/lib" -L"C:/Program Files (x86)/Dev-Cpp/MinGW32/mingw32/lib" -g3 -static
+c:/program files (x86)/dev-cpp/mingw32/bin/../lib/gcc/mingw32/9.2.0/../../../../mingw32/bin/ld.exe: main.o: in function `main':
+F:\YXS\cpp\cp/main.cpp:29: undefined reference to `PlaySoundA@12'
+collect2.exe: error: ld returned 1 exit status
+F:\YXS\cpp\cp\Makefile.win:27: recipe for target 'e/cp.exe' failed
+mingw32-make.exe: *** [e/cp.exe] Error 1
+
+编译结果...
+--------
+- 错误: 1
+- 警告: 1
+- 编译时间: 13.91s
+
+2025/6/4 15:11:58: Appending to log...
+
+编译项目变更...
+--------
+- 项目文件名: F:\YXS\cpp\cp\cp.dev
+- 编译器名: MinGW GCC 9.2.0 32-bit Debug
+
+生成 makefile...
+--------
+- 文件名: F:\YXS\cpp\cp\Makefile.win
+- 资源文件: F:\YXS\cpp\cp\cp_private.res
+
+正在处理makefile...
+--------
+- makefile处理器: C:\Program Files (x86)\Dev-Cpp\MinGW32\bin\mingw32-make.exe
+- 命令: mingw32-make.exe -f "F:\YXS\cpp\cp\Makefile.win" all
+
+windres.exe -i cp_private.rc --input-format=rc -o cp_private.res -O coff 
+g++.exe -D__DEBUG__ main.o cp_private.res -o "e/cp.exe" -L"C:/Program Files (x86)/Dev-Cpp/MinGW32/lib" -L"C:/Program Files (x86)/Dev-Cpp/MinGW32/mingw32/lib" -g3 -static
+c:/program files (x86)/dev-cpp/mingw32/bin/../lib/gcc/mingw32/9.2.0/../../../../mingw32/bin/ld.exe: main.o: in function `main':
+F:\YXS\cpp\cp/main.cpp:29: undefined reference to `PlaySoundA@12'
+collect2.exe: error: ld returned 1 exit status
+F:\YXS\cpp\cp\Makefile.win:27: recipe for target 'e/cp.exe' failed
+mingw32-make.exe: *** [e/cp.exe] Error 1
+
+编译结果...
+--------
+- 错误: 1
+- 警告: 0
+- 编译时间: 8.31s
+
+2025/6/4 15:13:18: Appending to log...
+
+编译单个文件...
+--------
+- 文件名: F:\YXS\cpp\cp\main.cpp
+- 编译器名: MinGW GCC 9.2.0 32-bit Debug
+
+处理 C++ 源文件...
+--------
+- C++ 编译器: C:\Program Files (x86)\Dev-Cpp\MinGW32\bin\g++.exe
+- 命令: g++.exe -x c++ - -fsyntax-only -Wall -Wextra -g3 -finput-charset=gbk -fexec-charset=gbk -I"c:\program files (x86)\dev-cpp\mingw32\lib\gcc\mingw32\9.2.0\include\c++" -I"c:\program files (x86)\dev-cpp\mingw32\lib\gcc\mingw32\9.2.0\include\c++\mingw32" -I"c:\program files (x86)\dev-cpp\mingw32\lib\gcc\mingw32\9.2.0\include\c++\backward" -I"c:\program files (x86)\dev-cpp\mingw32\lib\gcc\mingw32\9.2.0\include" -I"c:\program files (x86)\dev-cpp\mingw32\include" -I"c:\program files (x86)\dev-cpp\mingw32\lib\gcc\mingw32\9.2.0\include-fixed" 
+<stdin>:5: warning: ignoring #pragma comment  [-Wunknown-pragmas]
+
+编译结果...
+--------
+- 错误: 0
+- 警告: 1
+- 编译时间: 0.56s
+
+2025/6/4 15:13:42: Appending to log...
+
+编译项目变更...
+--------
+- 项目文件名: F:\YXS\cpp\cp\cp.dev
+- 编译器名: MinGW GCC 9.2.0 32-bit Debug
+
+生成 makefile...
+--------
+- 文件名: F:\YXS\cpp\cp\Makefile.win
+- 资源文件: F:\YXS\cpp\cp\cp_private.res
+
+正在处理makefile...
+--------
+- makefile处理器: C:\Program Files (x86)\Dev-Cpp\MinGW32\bin\mingw32-make.exe
+- 命令: mingw32-make.exe -f "F:\YXS\cpp\cp\Makefile.win" all
+
+g++.exe -D__DEBUG__ -c main.cpp -o main.o -I"c:/program files (x86)/dev-cpp/mingw32/lib/gcc/mingw32/9.2.0/include/c++" -I"c:/program files (x86)/dev-cpp/mingw32/lib/gcc/mingw32/9.2.0/include/c++/mingw32" -I"c:/program files (x86)/dev-cpp/mingw32/lib/gcc/mingw32/9.2.0/include/c++/backward" -I"c:/program files (x86)/dev-cpp/mingw32/lib/gcc/mingw32/9.2.0/include" -I"c:/program files (x86)/dev-cpp/mingw32/include" -I"c:/program files (x86)/dev-cpp/mingw32/lib/gcc/mingw32/9.2.0/include-fixed" -Wall -Wextra -g3 
+main.cpp:5: warning: ignoring #pragma comment  [-Wunknown-pragmas]
+    5 | #pragma comment(lib, "winmm.lib")
+      | 
+windres.exe -i cp_private.rc --input-format=rc -o cp_private.res -O coff 
+g++.exe -D__DEBUG__ main.o cp_private.res -o "e/cp.exe" -L"C:/Program Files (x86)/Dev-Cpp/MinGW32/lib" -L"C:/Program Files (x86)/Dev-Cpp/MinGW32/mingw32/lib" -g3 -static
+c:/program files (x86)/dev-cpp/mingw32/bin/../lib/gcc/mingw32/9.2.0/../../../../mingw32/bin/ld.exe: main.o: in function `main':
+F:\YXS\cpp\cp/main.cpp:24: undefined reference to `PlaySoundA@12'
+collect2.exe: error: ld returned 1 exit status
+F:\YXS\cpp\cp\Makefile.win:27: recipe for target 'e/cp.exe' failed
+mingw32-make.exe: *** [e/cp.exe] Error 1
+
+编译结果...
+--------
+- 错误: 1
+- 警告: 1
+- 编译时间: 7.03s
+
+2025/6/4 15:14:48: Appending to log...
+
+编译项目变更...
+--------
+- 项目文件名: F:\YXS\cpp\cp\cp.dev
+- 编译器名: MinGW GCC 9.2.0 32-bit Debug
+
+生成 makefile...
+--------
+- 文件名: F:\YXS\cpp\cp\Makefile.win
+- 资源文件: F:\YXS\cpp\cp\cp_private.res
+
+正在处理makefile...
+--------
+- makefile处理器: C:\Program Files (x86)\Dev-Cpp\MinGW32\bin\mingw32-make.exe
+- 命令: mingw32-make.exe -f "F:\YXS\cpp\cp\Makefile.win" all
+
+windres.exe -i cp_private.rc --input-format=rc -o cp_private.res -O coff 
+g++.exe -D__DEBUG__ main.o cp_private.res -o "e/cp.exe" -L"C:/Program Files (x86)/Dev-Cpp/MinGW32/lib" -L"C:/Program Files (x86)/Dev-Cpp/MinGW32/mingw32/lib" -g3 -static
+c:/program files (x86)/dev-cpp/mingw32/bin/../lib/gcc/mingw32/9.2.0/../../../../mingw32/bin/ld.exe: main.o: in function `main':
+F:\YXS\cpp\cp/main.cpp:24: undefined reference to `PlaySoundA@12'
+collect2.exe: error: ld returned 1 exit status
+F:\YXS\cpp\cp\Makefile.win:27: recipe for target 'e/cp.exe' failed
+mingw32-make.exe: *** [e/cp.exe] Error 1
+
+编译结果...
+--------
+- 错误: 1
+- 警告: 0
+- 编译时间: 28.39s

@@ -1,0 +1,183 @@
+2025/6/4 14:47:01: Creating log...
+
+9	20	F:\YXS\cpp\cp\main.cpp	[Warning] character constant too long for its type
+		F:\YXS\cpp\cp\main.cpp	In function 'int main(int, char**)':
+9	20	F:\YXS\cpp\cp\main.cpp	[Error] ISO C++ forbids comparison between pointer and integer [-fpermissive]
+
+2025/6/4 14:47:11: Appending to log...
+
+			无效开关 - "cp.exe"。
+24		F:\YXS\cpp\cp\Makefile.win	recipe for target 'clean' failed
+
+2025/6/4 14:47:18: Appending to log...
+
+9	20	main.cpp	[Warning] character constant too long for its type
+		main.cpp	In function 'int main(int, char**)':
+9	20	main.cpp	[Error] ISO C++ forbids comparison between pointer and integer [-fpermissive]
+30		F:\YXS\cpp\cp\Makefile.win	recipe for target 'main.o' failed
+
+2025/6/4 14:54:22: Appending to log...
+
+		F:\YXS\cpp\cp\main.cpp	In function 'int helppage()':
+22	1	F:\YXS\cpp\cp\main.cpp	[Warning] no return statement in function returning non-void [-Wreturn-type]
+
+2025/6/4 14:56:21: Appending to log...
+
+		F:\YXS\cpp\cp\main.cpp	In function 'int helppage()':
+21	52	F:\YXS\cpp\cp\main.cpp	[Error] 'argv' was not declared in this scope; did you mean '_argv'?
+21	57	F:\YXS\cpp\cp\main.cpp	[Error] 'i' was not declared in this scope
+24	1	F:\YXS\cpp\cp\main.cpp	[Warning] no return statement in function returning non-void [-Wreturn-type]
+
+2025/6/4 14:56:25: Appending to log...
+
+		F:\YXS\cpp\cp\main.cpp	In function 'int helppage()':
+22	1	F:\YXS\cpp\cp\main.cpp	[Warning] no return statement in function returning non-void [-Wreturn-type]
+
+2025/6/4 14:56:34: Appending to log...
+
+		F:\YXS\cpp\cp\main.cpp	In function 'int helppage()':
+23	1	F:\YXS\cpp\cp\main.cpp	[Warning] no return statement in function returning non-void [-Wreturn-type]
+
+2025/6/4 14:56:52: Appending to log...
+
+		F:\YXS\cpp\cp\main.cpp	In function 'int helppage()':
+24	1	F:\YXS\cpp\cp\main.cpp	[Warning] no return statement in function returning non-void [-Wreturn-type]
+
+2025/6/4 14:56:54: Appending to log...
+
+		F:\YXS\cpp\cp\main.cpp	In function 'int helppage()':
+25	1	F:\YXS\cpp\cp\main.cpp	[Warning] no return statement in function returning non-void [-Wreturn-type]
+
+2025/6/4 14:59:32: Appending to log...
+
+		main.cpp	In function 'int main(int, char**)':
+14	7	main.cpp	[Error] 'helppage' was not declared in this scope
+		main.cpp	In function 'int helppage()':
+25	1	main.cpp	[Warning] no return statement in function returning non-void [-Wreturn-type]
+30		F:\YXS\cpp\cp\Makefile.win	recipe for target 'main.o' failed
+
+2025/6/4 14:59:54: Appending to log...
+
+		F:\YXS\cpp\cp\main.cpp	In function 'int main(int, char**)':
+14	7	F:\YXS\cpp\cp\main.cpp	[Error] 'helppage' was not declared in this scope
+
+2025/6/4 14:59:57: Appending to log...
+
+		F:\YXS\cpp\cp\main.cpp	In function 'int main(int, char**)':
+15	7	F:\YXS\cpp\cp\main.cpp	[Error] 'helppage' was not declared in this scope
+
+2025/6/4 14:59:58: Appending to log...
+
+		F:\YXS\cpp\cp\main.cpp	In function 'int main(int, char**)':
+16	7	F:\YXS\cpp\cp\main.cpp	[Error] 'helppage' was not declared in this scope
+
+2025/6/4 15:00:01: Appending to log...
+
+		F:\YXS\cpp\cp\main.cpp	In function 'int helppage()':
+11	1	F:\YXS\cpp\cp\main.cpp	[Warning] no return statement in function returning non-void [-Wreturn-type]
+
+2025/6/4 15:00:10: Appending to log...
+
+		main.cpp	In function 'int helppage()':
+11	1	main.cpp	[Warning] no return statement in function returning non-void [-Wreturn-type]
+
+2025/6/4 15:01:57: Appending to log...
+
+		main.cpp	In function 'int helppage()':
+11	1	main.cpp	[Warning] no return statement in function returning non-void [-Wreturn-type]
+
+2025/6/4 15:04:46: Appending to log...
+
+		F:\YXS\cpp\cp\main.cpp	In function 'int helppage()':
+12	1	F:\YXS\cpp\cp\main.cpp	[Warning] no return statement in function returning non-void [-Wreturn-type]
+
+2025/6/4 15:04:48: Appending to log...
+
+5		F:\YXS\cpp\cp\main.cpp	[Warning] ignoring #pragma comment  [-Wunknown-pragmas]
+		F:\YXS\cpp\cp\main.cpp	In function 'int helppage()':
+14	1	F:\YXS\cpp\cp\main.cpp	[Warning] no return statement in function returning non-void [-Wreturn-type]
+
+2025/6/4 15:06:24: Appending to log...
+
+		F:\YXS\cpp\cp\main.cpp	In function 'int helppage()':
+12	1	F:\YXS\cpp\cp\main.cpp	[Warning] no return statement in function returning non-void [-Wreturn-type]
+
+2025/6/4 15:06:38: Appending to log...
+
+5		F:\YXS\cpp\cp\main.cpp	[Warning] ignoring #pragma comment  [-Wunknown-pragmas]
+		F:\YXS\cpp\cp\main.cpp	In function 'int helppage()':
+14	1	F:\YXS\cpp\cp\main.cpp	[Warning] no return statement in function returning non-void [-Wreturn-type]
+
+2025/6/4 15:06:49: Appending to log...
+
+5		F:\YXS\cpp\cp\main.cpp	[Warning] ignoring #pragma comment  [-Wunknown-pragmas]
+		F:\YXS\cpp\cp\main.cpp	In function 'int helppage()':
+14	1	F:\YXS\cpp\cp\main.cpp	[Warning] no return statement in function returning non-void [-Wreturn-type]
+
+2025/6/4 15:07:24: Appending to log...
+
+5		F:\YXS\cpp\cp\main.cpp	[Warning] ignoring #pragma comment  [-Wunknown-pragmas]
+		F:\YXS\cpp\cp\main.cpp	In function 'int helppage()':
+14	1	F:\YXS\cpp\cp\main.cpp	[Warning] no return statement in function returning non-void [-Wreturn-type]
+
+2025/6/4 15:07:28: Appending to log...
+
+5		F:\YXS\cpp\cp\main.cpp	[Warning] ignoring #pragma comment  [-Wunknown-pragmas]
+		F:\YXS\cpp\cp\main.cpp	In function 'int helppage()':
+14	1	F:\YXS\cpp\cp\main.cpp	[Warning] no return statement in function returning non-void [-Wreturn-type]
+
+2025/6/4 15:08:05: Appending to log...
+
+5		F:\YXS\cpp\cp\main.cpp	[Warning] ignoring #pragma comment  [-Wunknown-pragmas]
+		F:\YXS\cpp\cp\main.cpp	In function 'int helppage()':
+14	1	F:\YXS\cpp\cp\main.cpp	[Warning] no return statement in function returning non-void [-Wreturn-type]
+
+2025/6/4 15:08:43: Appending to log...
+
+5		main.cpp	[Warning] ignoring #pragma comment  [-Wunknown-pragmas]
+		main.cpp	In function 'int helppage()':
+14	1	main.cpp	[Warning] no return statement in function returning non-void [-Wreturn-type]
+		main.o	in function `main':
+28		F:\YXS\cpp\cp/main.cpp	undefined reference to `PlaySoundA@12'
+		collect2.exe	[Error] ld returned 1 exit status
+27		F:\YXS\cpp\cp\Makefile.win	recipe for target 'e/cp.exe' failed
+
+2025/6/4 15:10:05: Appending to log...
+
+5		F:\YXS\cpp\cp\main.cpp	[Warning] ignoring #pragma comment  [-Wunknown-pragmas]
+		F:\YXS\cpp\cp\main.cpp	In function 'int helppage()':
+15	1	F:\YXS\cpp\cp\main.cpp	[Warning] no return statement in function returning non-void [-Wreturn-type]
+
+2025/6/4 15:10:42: Appending to log...
+
+5		main.cpp	[Warning] ignoring #pragma comment  [-Wunknown-pragmas]
+		main.o	in function `main':
+29		F:\YXS\cpp\cp/main.cpp	undefined reference to `PlaySoundA@12'
+		collect2.exe	[Error] ld returned 1 exit status
+27		F:\YXS\cpp\cp\Makefile.win	recipe for target 'e/cp.exe' failed
+
+2025/6/4 15:11:58: Appending to log...
+
+		main.o	in function `main':
+29		F:\YXS\cpp\cp/main.cpp	undefined reference to `PlaySoundA@12'
+		collect2.exe	[Error] ld returned 1 exit status
+27		F:\YXS\cpp\cp\Makefile.win	recipe for target 'e/cp.exe' failed
+
+2025/6/4 15:13:18: Appending to log...
+
+5		F:\YXS\cpp\cp\main.cpp	[Warning] ignoring #pragma comment  [-Wunknown-pragmas]
+
+2025/6/4 15:13:42: Appending to log...
+
+5		main.cpp	[Warning] ignoring #pragma comment  [-Wunknown-pragmas]
+		main.o	in function `main':
+24		F:\YXS\cpp\cp/main.cpp	undefined reference to `PlaySoundA@12'
+		collect2.exe	[Error] ld returned 1 exit status
+27		F:\YXS\cpp\cp\Makefile.win	recipe for target 'e/cp.exe' failed
+
+2025/6/4 15:14:48: Appending to log...
+
+		main.o	in function `main':
+24		F:\YXS\cpp\cp/main.cpp	undefined reference to `PlaySoundA@12'
+		collect2.exe	[Error] ld returned 1 exit status
+27		F:\YXS\cpp\cp\Makefile.win	recipe for target 'e/cp.exe' failed
